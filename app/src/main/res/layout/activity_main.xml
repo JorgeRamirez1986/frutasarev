@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berkshire_swash"
+        android:text=" FRUTASA APP"
+        android:textColor="#34659A"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bigshot_one"
+        android:text="MENU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:autoText="false"
+        android:background="#F34CAF50"
+        android:backgroundTint="@color/teal_700"
+        android:backgroundTintMode="screen"
+        android:drawableBottom="@drawable/android_webview_browser_logo_icon_153020"
+        android:fontFamily="@font/aladin"
+        android:text="ADMINISTRACION"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        app:iconTint="#65B568"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnProductos"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="231dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="8dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
+        android:backgroundTintMode="src_over"
+        android:drawableBottom="@drawable/shipping_products_22121"
+        android:fontFamily="@font/aladin"
+        android:text="PRODUCTOS"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdmin" />
+
+    <Button
+        android:id="@+id/btnVentas"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="227dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="12dp"
+        android:background="#8BC34A"
+        android:drawableBottom="@drawable/ventas"
+        android:fontFamily="@font/aladin"
+        android:text="VENTAS"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProductos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
