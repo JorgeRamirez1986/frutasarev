@@ -2,12 +2,13 @@ package com.jr.frutasa;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
-import android.widget.ArrayAdapter;
+
 import android.widget.ListView;
+
+import com.jr.frutasa.Adapters.ListAdapter;
 
 
 public class ListaProductos extends AppCompatActivity {

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Frutasa">
         <activity
+            android:name=".CargoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FormularioActivity"
+            android:exported="true" />
+        <activity
             android:name=".ListaProductos"
             android:exported="true" />
         <activity
